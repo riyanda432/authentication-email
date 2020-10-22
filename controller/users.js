@@ -3,7 +3,7 @@ module.exports = {
         console.log('UserController.SignUp Called !');
     },
 
-    signIn:async (req, res, next) => { 
+    signIn:async  (req, res, next) => { 
         console.log('UserController.SignIn Called !');
     },
 
