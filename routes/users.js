@@ -12,4 +12,7 @@ router.route('/signin')
 router.route('/secret')
     .get(userController.secret);
 
+router.route('/forgot-password')
+.get(userController.secret);
+
 module.exports = router;
